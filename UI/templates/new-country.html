@@ -1,0 +1,16 @@
+<form name="newCountryForm">
+    <fieldset>
+        <label>Id: </label>
+        <input type="text" placeholder="Id" ng-model="country.Id"><br/>
+        <label>Country: </label>
+        <input type="text" placeholder="Country name" ng-model="country.CountryName"><br/>
+        <label>Capital city: </label>
+        <input type="text" placeholder="Capital city" ng-model="country.CapitalCity"><br/>
+        <label>Population: </label>
+        <input type="text" placeholder="Population" ng-model="country.Population"><br/>
+        <label>GDP: </label>
+        <input type="text" placeholder="GDP" ng-model="country.GDP"><br/>
+
+        <button type="submit" ng-click="save(country)">Save</button>
+    </fieldset>
+</form>

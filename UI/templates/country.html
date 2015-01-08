@@ -1,0 +1,17 @@
+<table>
+    <tr>
+        <th>CountryName</th>
+        <th>CapitalCity</th>
+        <th>Population</th>
+        <th>GDP</th>
+    </tr>
+    <tr ng-repeat="countries in Countries">
+        <td>{{countries.CountryName}}</td>
+        <td>{{countries.CapitalCity}}</td>
+        <td>{{countries.Population | number}}</td>
+        <td>{{countries.GDP | currency}}</td>
+    </tr>
+</table>
+
+
+
